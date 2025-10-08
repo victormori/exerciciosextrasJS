@@ -52,5 +52,15 @@ console.log("A média das notas:" , media)
 
 // Atividade3
 
+let numero1 = 30;
+let numero2 = 50;
 
+console.log("O dobro do número 30 é:" , numero1 * 2);
+console.log("O triplo do número 50 é:" , numero2 * 3);
 
+// Atividade4
+
+let celsius = 30
+
+console.log("Conversão de celsius para fahrenheit:");
+console.log("30 graus celsius em Fahrenheit=", celsius * 1.8 + 32);
