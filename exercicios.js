@@ -64,3 +64,52 @@ let celsius = 30
 
 console.log("Conversão de celsius para fahrenheit:");
 console.log("30 graus celsius em Fahrenheit=", celsius * 1.8 + 32);
+
+//Operadores relacionais e lógicos
+//Atividade1
+
+let n1 = 35;
+let n2 = 10;
+
+console.log("35 é maior que 10?")
+console.log(n1 > n2);
+
+//Atividade2
+
+let idade2 = 25
+
+console.log(idade2 >= 18);
+
+//Atividade3
+
+let variavel1 = 30;
+let variavel2 = 30;
+
+console.log("Esses dois números são iguais?")
+if (variavel1 == variavel2) {
+    console.log("Esses números são iguais!")
+} else {
+    console.log("Esses números não são iguais!")
+}
+
+//Atividade4
+
+let temCarteira = true;
+let temIdade = true;
+
+console.log("Você pode dirigir?")
+if (temCarteira && temIdade) {
+    console.log("Sim, você pode")
+} else {
+    console.log("Você não pode!")
+}
+    
+// Atividade5
+
+let npar = 10;
+
+if (npar > 0 && npar % 2 === 0) {
+    console.log("esse numero é par e positivo")
+} else {
+    console.log("esse numero é impar e negativo")
+}
